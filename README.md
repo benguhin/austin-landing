@@ -1,10 +1,10 @@
-# [austintexas.github.io](http://austintexas.github.io/)
+# [cityofaustin.github.io](http://cityofaustin.github.io/)
 
 A site for the City of Austin to share and discuss its technology work with the world. Forked from [cfpb.github.io](https://github.com/cfpb/cfpb.github.io)
 
 ## Running it locally
 
-Content editors and developers probably want to set up cfpb.github.io on
+Content editors and developers probably want to set up cityofaustin.github.io on
 their local machine so they can preview updates without pushing to GitHub.
 
 Before you get started make sure you have an up-to-date version of Ruby and Bundler.
@@ -83,13 +83,8 @@ will start with `/project-name` and resolve properly.
 We welcome your feedback and contributions.
 See the [contribution guidelines](CONTRIBUTING.md) for more details.
 
-**Note:** Currently this file has standard language geared toward code contributions.
-Interested in contributing to design discussions? Just check out the
-[issues](https://github.com/cfpb/cfpb.github.io/issues) and dive right in!
 
 ----
 
 ## Open source licensing info
 1. [TERMS](TERMS.md)
-2. [LICENSE](LICENSE)
-3. [CFPB Source Code Policy](https://github.com/cfpb/source-code-policy/)
