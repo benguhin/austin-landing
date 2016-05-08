@@ -5,5 +5,5 @@ highlighter: rouge
 markdown:    kramdown
 
 title: City of Austin Open Tech
-url: "https://cityofaustin.github.io/"
+url: "https://benguhin.github.io/austin-landing"
 description: "Learn about design and development work at the City of Austin."
