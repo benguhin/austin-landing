@@ -704,7 +704,7 @@ hr {
 [class*="featured-project_img"] {
     width: 150px;
     height: 150px;
-    border: 1px solid #ADDC91;
+    border: 1px solid #ddd;
     border-radius: 100%;
     margin: 0 auto 2em;
 }
