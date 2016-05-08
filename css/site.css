@@ -294,10 +294,13 @@ dt {
 /* HYPERLINKS */
 
 a {
-    border-bottom: 1px dotted #0072CE;
-    color: #0072CE;
+    border-bottom: 1px dotted #33578E;
+    color: #33578E;
     text-decoration: none;
 }
+
+
+
 
 main p a:visited {
     border-bottom: 1px solid #005E5D;
@@ -582,13 +585,15 @@ hr {
 }
 
 .header {
-    border-bottom: 4px solid #2CB34A;
+    border-bottom: 4px solid #33578E;
     overflow: auto;
 }
 
 .header .logo {
     display: block;
-    margin: 1em 0;
+    margin: .8em 0;
+    height: 50px;
+    width: auto;
 }
 
 .header h1 {
@@ -609,14 +614,16 @@ hr {
 }
 
 .hero {
-    background: #DBEDD4;
+    background: #EEE;
     font-family: "Avenir Next W01", Arial, sans-serif;
+    padding-top:14px;
+
 }
 .hero section {
     padding: 1.5em 0;
 }
 .hero p {
-    margin-bottom: 1.5em;
+    margin-bottom: 0em;
     font-size: 1.125em;
     line-height: 1.5;
 }
@@ -701,14 +708,19 @@ hr {
     border-radius: 100%;
     margin: 0 auto 2em;
 }
-.featured-project_img__pdp {
-    background: url(../img/feature_pdp_150x150.png) no-repeat;
+.featured-project_img__portal {
+    background: url(../img/data-portal-300.jpg) no-repeat;
+    background-size: 150px 150px;
+
 }
-.featured-project_img__eregs {
-    background: url(../img/feature_eregs_150x150.png) no-repeat;
+.featured-project_img__consults {
+    background: url(../img/consults-300.jpg) no-repeat;
+    background-size: 150px 150px;
+
 }
-.featured-project_img__ccdb {
-    background: url(../img/feature_ccdb_150x150.png) no-repeat;
+.featured-project_img__dti {
+    background: url(../img/dti-300.jpg) no-repeat;
+    background-size: 150px 150px;
 }
 .featured-project_head {
     margin-bottom: .75em;
@@ -803,8 +815,9 @@ hr {
 .more-repos li {
     margin: 0;
 }
-.work-at-cfpb {
+.work-at-coa {
     margin-bottom: 3em;
+
 }
 .job-half {
     margin-bottom: 1em;
@@ -817,6 +830,7 @@ hr {
 }
 .footer-links ul {
     list-style: none;
+    padding: 0;
 }
 .footer-links_primary a {
     border-bottom-color: #101820;
@@ -898,6 +912,7 @@ hr {
     }
     .header .logo {
         margin: 1em 0 0 0;
+        display: none;
     }
     .header h1 {
         margin-bottom: .5em;
@@ -917,6 +932,8 @@ hr {
     .header .logo {
         margin: 1em 0;
         float: right;
+        display: block;
+
     }
     .learn-more_item {
         float: left;

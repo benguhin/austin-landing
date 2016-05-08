@@ -1,6 +1,6 @@
 # [cfpb.github.io](http://cfpb.github.io/)
 
-A site for the CFPB to share and discuss its technology work with the world.
+A site for the City of Austin to share and discuss its technology work with the world. Forked from [cfpb.github.io](https://github.com/cfpb/cfpb.github.io)
 
 ## Running it locally
 
