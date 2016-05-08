@@ -4,6 +4,6 @@ permalink:   /articles/:title/
 highlighter: rouge
 markdown:    kramdown
 
-title: CFPB Open Tech
-url: "https://cfpb.github.io/"
-description: "Learn about the design and development work the Consumer Financial Protection Bureau undertakes to support its mission."
+title: City of Austin Open Tech
+url: "https://cityofaustin.github.io/"
+description: "Learn about design and development work at the City of Austin."
