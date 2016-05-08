@@ -2,7 +2,7 @@
 @import "syntax.css";
 @import "icons.min.css";
 @import "afontgarde.css";
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 
 /* Paul Irish's Universal border-box -- http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *, *:before, *:after {
@@ -20,7 +20,7 @@ body {
 
 body {
     color: #101820; /* CFPB Black */
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Roboto', Georgia, "Times New Roman", serif;
     line-height: 1.375;
     background-color: #FFF;
 
@@ -61,7 +61,7 @@ h6 {
 h1,
 h2,
 h3 {
-    font-family: "Avenir Next W01", Arial, sans-serif;
+    font-family: 'Roboto', "Avenir Next W01", Arial, sans-serif;
     font-weight: normal;
 }
 
@@ -79,7 +79,7 @@ h3 {
 }
 
 h4 {
-    font-family: "Avenir Next W01", Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 1.125em;
     line-height: 1.22222222222222;
     font-weight: 500;
@@ -87,7 +87,7 @@ h4 {
 
 h5,
 h6 {
-    font-family: "Avenir Next W01", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
