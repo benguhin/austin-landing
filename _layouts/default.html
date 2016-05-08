@@ -12,8 +12,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="//fast.fonts.net/cssapi/0a274127-32a9-474a-bbdb-f23f410e88c5.css">
-    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="http://fast.fonts.net/cssapi/0a274127-32a9-474a-bbdb-f23f410e88c5.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/site.css">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} &raquo; Feed" href="/feed/">
 
@@ -27,13 +27,7 @@
 
 <body>
     <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVLMCF"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MVLMCF');</script>
+    
     <!-- End Google Tag Manager -->
 
     <div class="wrap skip cf">
@@ -54,11 +48,11 @@
 {% include footer.html %}
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="/js/afontgarde.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="{{ site.url }}/js/afontgarde.js"></script>
     <script>
         AFontGarde( 'CFPB_Icons', '\uE600\uE601\uE602\uE605' );
-        var consoleText = 'Hey! If you\'re viewing this, you should %capply() %cto our Design, Technology, and Innovation Fellows Program. https://cityofaustin.github.io/innovation-fellows/';
+        var consoleText = 'Hey! If you\'re viewing this, you should apply to our Design, Technology, and Innovation Fellows Program. https://cityofaustin.github.io/innovation-fellows';
         var consoleCSSBold = 'font-weight: bold';
         var consoleCSSNorm = 'font-weight: normal';
 
@@ -72,7 +66,7 @@
         }
     </script>
 
-    <script src="/js/site.js"></script>
+    <script src="{{ site.url }}/js/site.js"></script>
 
 </body>
 
